@@ -17,9 +17,9 @@ namespace Tests
 
             uiManager.updateScore();
 
-            int expect = 10;
+            int expectScore = 10;
 
-            Assert.AreEqual(uiManager.score, expect);
+            Assert.AreEqual(uiManager.score, expectScore);
 
 
 
